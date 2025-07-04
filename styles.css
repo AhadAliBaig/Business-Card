@@ -1,15 +1,17 @@
 body {
-    margin: 20px;
+    margin: 22px;
+    font-size: medium;
+    font-weight: bold;
     font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode",
     "Lucida Sans", Tahoma, sans-serif;
 }
 
 .avatar {
-    width: 150px;
+    width: 200px;
 }
 
 .card {
-    width: 400px;
+    width: 500px;
     margin: 0 auto;
     padding: 20px;
     display: flex;
@@ -19,9 +21,30 @@ body {
     color: #CED4DA;
     border-bottom: 10px solid #D62828;
         
-
-
-.border-blue {
-    border: 1px dotted blue;
 }
 
+
+
+.social-icons a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: transparent;
+    border: 0.2rem solid #b74b4b;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin: 6rem 1.5rem 1rem 0;
+    transition: 0.3s ease;
+    color: #b74b4b;
+    text-decoration: none;
+}
+
+
+.social-icons a:hover{
+    color: black;
+    transform: scale(1.3) translateY(-5px);
+    background-color: #b74b4b;
+    box-shadow: 0  0 25px #b74b4b;
+}
